@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UILogin">
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="413dp"
+        android:layout_height="87dp"
+        android:background="@drawable/countured"
+        android:drawableLeft="@drawable/baseline_email"
+        android:drawableRight="@drawable/redeye"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/red"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        android:textColor="#ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="418dp"
+        android:layout_height="86dp"
+        android:background="@drawable/countured"
+        android:drawableLeft="@drawable/cadness"
+        android:drawableRight="@drawable/redeye"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/red"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="215dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108"
+        app:srcCompat="@drawable/ic_logo" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="149dp"
+        android:layout_height="22dp"
+        android:drawableLeft="@drawable/baseline_check_box_outline_blank_24"
+        android:text=" Remember Me"
+        android:textColor="#ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
+
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="149dp"
+        android:layout_height="22dp"
+        android:text="Forgot Password?"
+        android:textColor="#ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="79dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="168dp"
+        android:text="OR"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account ? Resgister Now"
+        android:textAlignment="viewStart"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="406dp"
+        android:layout_height="49dp"
+        android:background="@drawable/background_button"
+        android:text="Login"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="161dp"
+        android:layout_height="54dp"
+        android:contentDescription="A description of your image button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.861"
+        app:srcCompat="@drawable/facbook" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="161dp"
+        android:layout_height="54dp"
+        android:contentDescription="A description of your image button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.861"
+        app:srcCompat="@drawable/ic_btn_google" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
